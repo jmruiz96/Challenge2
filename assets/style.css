@@ -36,14 +36,15 @@ flex-direction: row;
 display: flex;
 list-style-type: none;
 font-size: 120%;
-flex-wrap: wrap;
+flex-wrap: wrap;;
 }
  
 nav li {
     padding: 0 15px;
+    text-decoration: underline var(--blue);
 }
 
-h2 {
+figure h2 {
     border: 1px solid --blue;
     background-color: var(--blue);
     color: var(--gray);
