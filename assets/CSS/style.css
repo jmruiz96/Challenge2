@@ -21,7 +21,7 @@ nav {
     /* justify-content:space-between; */
 }
 
-h1 {
+header h1 {
     border: 1px solid --blue;
     background-color: var(--blue);
     color: var(--gray);
@@ -43,7 +43,7 @@ nav li {
     padding: 0 15px;
 }
 
-h2 {
+figure h1 {
     color: var(--blue);
     padding: 10px;
     display: flex;
@@ -65,4 +65,85 @@ span {
     position: absolute;
     bottom: 8px;
     right: 16px;  
+}
+
+Section {
+    color: var(--blue);   
+    display: flex;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+h2 {
+    display: flex;
+    justify-content: start;
+    margin: 5%; 
+    padding-right: 5%;
+
+}
+
+h2 div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+div {
+    border-left: 3px solid var(--blue);
+    padding: 0% 1.75%;
+}
+
+p {
+    margin: 3% 2%;
+}
+
+article { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    border-left: 3px solid var(--blue);
+
+}
+
+.box {
+    position: relative;
+    margin: 2%;
+}
+
+button {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    border: solid var(--blue);
+    background-color: var(--gray);
+    color: var(--blue);
+}
+
+.big-block {
+    max-width: 700px;
+    max-height: 500px;
+}
+
+.small-blocks {
+max-width: 300px;
+max-height: 250px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+}
+
+section ul {
+display: flex;
+flex-direction:row;
+justify-content: space-evenly;
+}
+
+section li {
+    display: flex;
+    list-style-type: none;
+    border: 0% 5%;
+}
+
+.spcing {
+    padding: 0% 5%
 }
