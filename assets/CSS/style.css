@@ -42,11 +42,3 @@ flex-wrap: wrap;
 nav li {
     padding: 0 15px;
 }
-
-h2 {
-    border: 1px solid --blue;
-    background-color: var(--blue);
-    color: var(--gray);
-    display: flex;
-    justify-content: end;
-}
