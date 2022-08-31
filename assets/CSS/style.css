@@ -124,6 +124,9 @@ button {
 .big-block {
     max-width: 750px;
     max-height: 500px;
+    display: flex;
+    /* flex-shrink: 2 2; */
+    /* not working right going to try this on the container not image? */
 }
 
 .small-blocks {
@@ -133,7 +136,20 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-between;
+/* flex-shrink: 1 1; */
+/* not doing what I want it to */
 }
+
+.big-shrink {
+    display: flex;
+    flex-shrink: 2;
+}
+/* 
+.lil-shrink {
+    display: flex;
+    flex-shrink: 1; */
+    /* shrink is compared to items in the smae container. */
+
 
 section ul {
 display: flex;
@@ -153,4 +169,15 @@ section li {
 }
 
 #cm {
+}
+
+@media screen and (max-width 798px){ 
+    #resize {
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    * {
+        font-size: medium;
+    }
 }
