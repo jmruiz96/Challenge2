@@ -79,8 +79,6 @@ h2 {
     justify-content: start;
     margin: 5%; 
     padding-right: 5%;
-    text-size-adjust: ;
-
 }
 
 h2 div {
@@ -131,7 +129,7 @@ button {
 
 .small-blocks {
 max-width: 335px;
-max-height: 275px;
+max-height: 275px; 
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
