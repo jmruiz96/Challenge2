@@ -79,6 +79,7 @@ h2 {
     justify-content: start;
     margin: 5%; 
     padding-right: 5%;
+    text-size-adjust: ;
 
 }
 
@@ -101,12 +102,14 @@ article {
     flex-wrap: wrap;
     flex-direction:row;
     border-left: 3px solid var(--blue);
+    justify-content: center;
 
 }
 
 .box {
     position: relative;
     margin: 2%;
+    border: 5px solid royalblue;
 }
 
 button {
@@ -119,13 +122,13 @@ button {
 }
 
 .big-block {
-    max-width: 700px;
+    max-width: 750px;
     max-height: 500px;
 }
 
 .small-blocks {
-max-width: 300px;
-max-height: 250px;
+max-width: 335px;
+max-height: 275px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -135,15 +138,19 @@ justify-content: space-between;
 section ul {
 display: flex;
 flex-direction:row;
-justify-content: space-evenly;
+border-left: 3px solid var(--blue);
+margin-left: -60px;
 }
 
 section li {
     display: flex;
     list-style-type: none;
-    border: 0% 5%;
+    padding: 0% 15%;
 }
 
 .spcing {
     padding: 0% 5%
+}
+
+#cm {
 }
